@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, "sans-serif";
+}
+.renderer {
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+}
+.canvas {
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -45px;
+    width: 800px;
+}
+.sprite {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 875px;
+    height: 83px;
+}
+.equalInput {
+    padding: 0;
+    width: 70px;
+    font-size: 65px;
+}
+.equalInput[type="text"]:disabled {
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+.termInput {
+    position: absolute;
+    width: 40px;
+    font-size: 45px;
+}
+.termInput[type="text"]:disabled {
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+.inputError {
+    color: red;
+}
+.spanError {
+    background-color: orange;
+}
+.formula {
+    margin: 0 auto;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 90px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 65px;
+}
